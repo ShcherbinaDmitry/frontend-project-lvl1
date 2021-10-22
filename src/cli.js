@@ -1,3 +1,5 @@
+const;
+
 import readlineSync from 'readline-sync';
 
 const cli = (question) => {
