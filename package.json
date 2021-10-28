@@ -2,7 +2,6 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "Hexlet Mind Games project",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,16 +9,17 @@
     "type": "git",
     "url": "git+https://github.com/ShcherbinaDmitry/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": "Dmitry",
   "license": "ISC",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
+  },
   "bugs": {
     "url": "https://github.com/ShcherbinaDmitry/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/ShcherbinaDmitry/frontend-project-lvl1#readme",
-  "bin": {
-    "code": "brain-games.js"
-  },
-  "type": "module",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
