@@ -1,7 +1,8 @@
 import readlineSync from 'readline-sync';
+import rnd from '../random.js';
 
 const even = () => {
-  const num = Math.round(Math.random() * 100);
+  const num = rnd(100);
   console.log(`Question: ${num}`);
   const answer = readlineSync.question('Your answer: ');
   const correctAnswer = num % 2 === 0 ? 'yes' : 'no';
