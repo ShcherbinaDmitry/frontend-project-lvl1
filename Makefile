@@ -18,6 +18,9 @@ brain-gcd: # запуск игры "Наибольший общий делите
 brain-progression: # запуск игры "Арифметическая прогрессия"
 		node bin/brain-progression.js
 
+brain-prime: # запуск игры "Простое ли число?"
+		node bin/brain-prime.js
+
 lint: # запуск линтера
 		npx eslint .
 
